@@ -1,0 +1,82 @@
+.left-content-container {
+    display: flex;
+}
+.left-content {
+    margin-top: 3%;
+    padding: 30px;
+}
+.header-bg {
+    width: 100%;
+    height: 58%;
+    background-color: #ECEFF1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.header-container {
+    margin-top: 2%;
+}
+.left-content-header {
+    font-weight: 500;
+}
+.work-easily-content {
+    color: #37474F;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+}
+.work-easily{
+    padding-top: 3%;
+}
+.scroll-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 8%;
+}
+.scroll-container {
+    cursor: pointer;
+}
+.text-col {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: x-large;
+}
+.scroll-down-to-next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 2%;
+    color: #37474F;
+    font-size: medium;
+}
+
+
+
+
+/* Language: css */
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.roboto-font-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.roboto-font-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.roboto-font-thin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.roboto-font-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.helvetica-font {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}

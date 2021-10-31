@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ptwikki-icon</title>
+    <g id="Images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-442.000000, -265.000000)">
+            <g id="ptwikki-icon" transform="translate(442.000000, 265.000000)">
+                <circle id="Oval" stroke-opacity="0.498913318" stroke="#A6B6BE" fill="#FFFFFF" cx="20" cy="20" r="19.5"></circle>
+                <g id="Group-4" transform="translate(11.000000, 8.000000)" fill="#1E88E5">
+                    <path d="M1.98839959,0 C1.15356075,1.70535789 1.98839959,6.03914721 5.45907004,7.6095308 C7.77285033,8.65645319 10.575967,8.43361359 13.86842,6.94101201 C5.88035472,14.8968442 7.25754806,20.2498401 18,23 C18,23 -7.11643621,20.7047029 1.98839959,0 Z" id="Path-6" transform="translate(9.000000, 11.500000) scale(-1, 1) translate(-9.000000, -11.500000) "></path>
+                    <ellipse id="Oval" transform="translate(9.818182, 3.965517) scale(-1, 1) translate(-9.818182, -3.965517) " cx="9.81818182" cy="3.96551724" rx="3.27272727" ry="3.17241379"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
