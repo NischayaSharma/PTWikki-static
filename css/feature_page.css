@@ -50,8 +50,15 @@
     color: #37474F;
     font-size: medium;
 }
-
-
+.footer-links {
+    cursor: pointer;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
 
 
 /* Language: css */
