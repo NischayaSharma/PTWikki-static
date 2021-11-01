@@ -37,7 +37,7 @@
 
         <div class="mb-4 bg-primary justify-content-center d-flex text-light">
             <!-- <div class=""> -->
-                <div class="footer-text text-center w-50 my-5">
+                <div class="footer-text text-center my-5">
                     <h1 class="roboto-font-regular mb-4">Hi, how can we help?</h1>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control bg-light" placeholder="Write Something..." aria-describedby="button-addon2">
@@ -51,43 +51,42 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md col-4 mt-5 d-none d-lg-flex d-md-flex flex-column align-items-center position-relative fs-5">
+                <div class="col-md col-12 col-lg-4 mt-5 d-flex flex-column align-items-center position-relative fs-5">
                     <div>
-                        <a class="row text-decoration-none my-1" href="#getting-started">
+                        <a class="row text-decoration-none my-1" data-bs-toggle="collapse" href="#getting-started">
                             <p class="faq-subtopic-links m-0 text-dark">
                                 Getting Started
                             </p>
                         </a>
-                        <a class="row text-decoration-none my-1" href="#managing-different-locations">
+                        <a class="row text-decoration-none my-1" data-bs-toggle="collapse" href="#managing-different-locations">
                             <p class="faq-subtopic-links m-0 text-dark">
                                 Managing different locations
                             </p>
                         </a>
-                        <a class="row text-decoration-none my-1" href="#add-remove-marketing-users">
+                        <a class="row text-decoration-none my-1" data-bs-toggle="collapse" href="#add-remove-marketing-users">
                             <p class="faq-subtopic-links m-0 text-dark">
                                 Add/ remove Marketing Users
                             </p>
                         </a>
-                        <a class="row text-decoration-none my-1" href="#managing-calendars">
+                        <a class="row text-decoration-none my-1" data-bs-toggle="collapse" href="#managing-calendars">
                             <p class="faq-subtopic-links m-0 text-dark">
                                 Managing Calendars
                             </p>
                         </a>
-                        <a class="row text-decoration-none my-1" href="#facebook-integration">
+                        <a class="row text-decoration-none my-1" data-bs-toggle="collapse" href="#facebook-integration">
                             <p class="faq-subtopic-links m-0 text-dark">
                                 Facebook Integration
                             </p>
                         </a>
-                        <a class="row text-decoration-none my-1" href="#pipeline-management">
+                        <a class="row text-decoration-none my-1" data-bs-toggle="collapse" href="#pipeline-management">
                             <p class="faq-subtopic-links m-0 text-dark">
                                 Pipeline management
                             </p>
                         </a>
                     </div>
                 </div>
-                <div class="col-md">
-                    <a id="getting-started" class="anchor"></a>
-                    <div class="row mt-5 mb-2">
+                <div class="col-md" id="FaqSubTopics">
+                    <div id="getting-started" class="row mt-5 mb-2 collapse show" data-bs-parent="#FaqSubTopics">
                         <h2 class="roboto-font-regular fs-4 mb-3">Getting Started</h2>
                         <div class="accordion" id="GettingStarted">
                             <div class="accordion-item">
@@ -140,8 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="managing-different-locations" class="anchor"></a>
-                    <div class="row mt-5 mb-2">
+                    <div id="managing-different-locations" class="row mt-5 mb-2 collapse" data-bs-parent="#FaqSubTopics">
                         <h2 class="roboto-font-regular fs-4 mb-3">Managing Different Locations</h2>
                         <div class="accordion" id="ManagingDifferentLocations">
                             <div class="accordion-item">
@@ -194,8 +192,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="add-remove-marketing-users" class="anchor"></a>
-                    <div class="row mt-5 mb-2">
+                    <div id="add-remove-marketing-users" class="row mt-5 mb-2 collapse" data-bs-parent="#FaqSubTopics">
                         <h2 class="roboto-font-regular fs-4 mb-3">Add/ remove Marketing Users</h2>
                         <div class="accordion" id="AddRemoveMarketingUsers">
                             <div class="accordion-item">
@@ -248,8 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="managing-calendars" class="anchor"></a>
-                    <div class="row mt-5 mb-2">
+                    <div id="managing-calendars" class="row mt-5 mb-2 collapse" data-bs-parent="#FaqSubTopics">
                         <h2 class="roboto-font-regular fs-4 mb-3">Managing Calendars</h2>
                         <div class="accordion" id="ManagingCalendars">
                             <div class="accordion-item">
@@ -302,8 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="facebook-integration" class="anchor"></a>
-                    <div class="row mt-5 mb-2">
+                    <div id="facebook-integration" class="row mt-5 mb-2 collapse" data-bs-parent="#FaqSubTopics">
                         <h2 class="roboto-font-regular fs-4 mb-3">Facebook Integration</h2>
                         <div class="accordion" id="FacebookIntegration">
                             <div class="accordion-item">
@@ -356,8 +351,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="pipeline-management" class="anchor"></a>
-                    <div class="row mt-5 mb-2">
+                    <div id="pipeline-management" class="row mt-5 mb-2 collapse" data-bs-parent="#FaqSubTopics">
                         <h2 class="roboto-font-regular fs-4 mb-3">Pipeline Management</h2>
                         <div class="accordion" id="PipelineManagement">
                             <div class="accordion-item">
